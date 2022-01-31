@@ -1,0 +1,37 @@
+#no-mobile {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 645px) {
+    #no-mobile {
+        display: none;
+    }
+}
+
+#no-landscape {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+@media screen and (orientation: portrait) {
+    #no-landscape {
+        display: none;
+    }
+}
