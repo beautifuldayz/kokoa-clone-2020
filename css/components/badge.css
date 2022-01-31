@@ -1,0 +1,21 @@
+.badge {
+    color: white;
+    background-color: tomato;
+    display: flex;
+    width: 25px; 
+    height: 25px;
+    border-radius: 12.5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge__more {
+    color: white;
+    background-color: tomato;
+    display: flex;
+    width: 5px; 
+    height: 5px;
+    border-radius: 2.5px;
+    align-items: center;
+    justify-content: center;
+}

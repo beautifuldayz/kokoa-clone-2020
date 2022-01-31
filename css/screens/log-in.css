@@ -33,7 +33,7 @@
 }
 
 .log-in input::placeholder {
-    color:rgba(0, 0, 0, 0.4);
+    color: var(--main-font-color);
 }
 .log-in input:focus{
     border-color: var(--yellow);

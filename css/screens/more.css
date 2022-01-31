@@ -1,0 +1,16 @@
+.fa-exclamation-circle {
+    color: tomato;
+    margin-left: 3px;
+    font-size: 15px;
+}
+
+.more-suggestion {
+    margin-top: 20px;
+    padding-top: 40px;
+    border-top: var(--main-border);
+}
+
+.more-suggestion h4 {
+    font-weight: 700;
+    font-size: 16px;
+}

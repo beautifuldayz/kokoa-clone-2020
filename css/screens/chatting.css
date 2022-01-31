@@ -1,0 +1,19 @@
+.chatting-screen {
+    background-color: #abc1d1;
+    height: 1000vh;
+}
+
+.chatting-screen .alt-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #abc1d1;
+}
+.chatting-screen .status-bar {
+    background-color: #abc1d1;
+}
+
+.main-chatting {
+    margin-top: 120px;
+}

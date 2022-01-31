@@ -9,14 +9,13 @@
 
 .nav__list {
     display: flex;
-    flex-direction: row;
-    text-align: center;
+    flex-direction: row;    
 }
 
 .nav__btn {
     width: 25%;
     position: relative;
-
+    text-align: center;
 }
 
 .nav__link {
@@ -24,15 +23,13 @@
 }
 
 .nav__notification {
-    color: white;
-    background-color: tomato;
-    display: flex;
-    width: 25px; 
-    height: 25px;
-    border-radius: 12.5px;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     right: 25%; 
     bottom: 45%;
+}
+
+.nav__more__notification {
+    position: absolute;
+    right: 30%; 
+    bottom: 85%;
 }
